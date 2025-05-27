@@ -10,7 +10,7 @@ console.log(typeof valueInNumber);
 // "33abc"=NaN
 let isLoggedIn = 1
 let boolenIsLoggedIn = Boolean(isLoggedIn)
-console.log(booleanIsLoggedIn);
+console.log(boolenIsLoggedIn);
 
 
 

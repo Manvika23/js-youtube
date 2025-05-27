@@ -1,6 +1,6 @@
 const accountId = 12345
 let accountEmail="manvi23@gnail.com"
-var accountPassword="12345"
+var accountPassword="12345",
 accountCity ="jaipur"
 console.log(accountId);
 accountEmail="harar@gam"
