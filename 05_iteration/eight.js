@@ -9,6 +9,6 @@ const mynum= [1,2,3]
 
 //effective
 
- const mytotal2=mynum.reduce((acc,currval)=>acc+currval,0)
- console.log(mytotal2); // 6
+ const mytota2=mynum.reduce((acc,currval)=>acc+currval,0)
+ console.log(mytota2); // 6
  
