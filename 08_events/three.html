@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id ="start">start</button>
+    <button id ="stop">stop</button>
+
+</body>
+<script>
+   /* setInterval(function(){
+        console.log("manvika",Date.now());
+    },2000)*/
+
+  const sayDate =   function(str){
+        console.log("manvika",Date.now());
+    }
+    const interalId= setInterval(sayDate,2000,"HI")
+    clearInterval(interalId)
+/*
+    dcoument.querySelector('#stop').addEventListener('click',function(){
+    clearTimeout(interalId)
+    console.log("STOPPED")
+})
+dcoument.querySelector('#start').addEventListener('click',function(){
+    clearTimeout(interalId)
+    console.log("STARTED")
+})*/
+
+</script>
+</html>
