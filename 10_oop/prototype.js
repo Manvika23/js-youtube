@@ -47,3 +47,15 @@ const TAsupport ={
 Teacher.__porto__= User
 //modern syntax
 Object.setPrototypeOf(Teachingsupport,Teacher)
+
+let anotherUsername= "Manvika  "
+
+String.prototype.truelength= function(){
+console.log(`${this}`);
+
+console.log(`true length is :${this.trim().length}`);
+
+
+
+}
+anotherUsername.truelength()
